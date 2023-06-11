@@ -1,0 +1,39 @@
+/* TODO: convert this to a ts vanilla-extract format. currently though, it's not worth the time */
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.main-menu span {
+  background: #AAA;
+  border-radius: 10px;
+  height: 2px;
+  margin: 3px 0;
+  transition: .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.main-menu-closed span {
+  width: 100%;
+}
+
+.main-menu-open span:nth-of-type(1) {
+  /* width: 141%; */
+  transform-origin: left;
+  transform:  translate(3px, 0px) rotate(45deg)
+}
+
+.main-menu-open span:nth-of-type(3) {
+  /* width: 141%; */
+  transform-origin: left;
+  transform:  translate(3px, 0px) rotate(-45deg)
+}
+
+.main-menu-open span:nth-of-type(2) {
+  width: 0%;
+}
