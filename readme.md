@@ -1,5 +1,8 @@
 # Cyclic Cellular Automata
 
+![CleanShot 2023-06-23 at 17 35 23](https://github.com/patricknasralla/cyclic-cellular-automata/assets/974911/b0397993-43b5-4078-a066-7196f1a1ce71)
+
+
 This repo is a demonstration of how to implement cyclic cellular automata in the browser using three, increasingly performant but possibly more complicated methods.
 
 1. In HTML using pure React, JS and CSS.
